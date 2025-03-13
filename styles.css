@@ -1,0 +1,188 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #0073e6;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Same size for header and footer logo */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url("images/freelncer2.jpg") no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero h1,
+.hero p {
+    position: relative;
+    z-index: 2;
+}
+
+/* Search Bar */
+.search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search button {
+    padding: 14px 25px; /* Increased button size */
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search button:hover {
+    background-color: #005bb5;
+}
+
+/* Hero Buttons (Find Job & Find Freelancer) */
+.hero-btns {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-btns .cta-btn {
+    padding: 14px 25px; /* Same size as search button */
+    font-size: 16px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Feature Columns */
+.feature-column {
+    width: 48%;
+}
+
+/* Individual Feature Box */
+.feature {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Feature Images */
+.feature img {
+    width: 100%;
+    height: 180px; /* Matched reference image */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Footer */
+
+
+footer {
+    background-color: #0073e6;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust space between logo and text */
+}
+
+.footer-logo img {
+    height: 50px; /* Same size as the header logo */
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.footer-logo img {
+    height: 40px; /* Footer logo same as header */
+}
+
+/* CTA Buttons */
+.cta-btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 14px 25px; /* Consistent button size */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.cta-btn.secondary {
+    background-color: #f9f9f9;
+    color: #0073e6;
+    border: 2px solid #0073e6;
+}
